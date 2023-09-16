@@ -1,0 +1,90 @@
+/* Style the form container */
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ff5c8a;
+  }
+  
+  /* Style the header */
+  h1 {
+    background-color: #22211f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the form container */
+  #formm {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Style the input field and buttons */
+  #input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DFCCFB;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#refreshButton {
+    background-color: #ADC4CE;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button#refreshButton:hover {
+    background-color: #8d99ae;
+  }
+  /* Style the results container */
+  #container {
+    max-width: 840px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .show {
+    margin-bottom: 20px;
+  }
+  
+  .show h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .show img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .show p {
+    margin: 10px 0;
+  }
+  
