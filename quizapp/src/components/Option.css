@@ -1,0 +1,28 @@
+.option-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .option-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .option-button.correct {
+    background-color: #28a745;
+  }
+  
+  .option-button.wrong {
+    background-color: #dc3545;
+  }
+  
